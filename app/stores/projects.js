@@ -5,24 +5,89 @@ export const useProjectsStore = defineStore('projects', {
     projects: [
       {
         id: 1,
-        title: 'Project A',
+        title: 'Pay Aja',
         description: 'This is a description for Project A.',
-        image: 'ic_logo_programmer_santai.png',
-        technologies: ['Vue.js', 'Nuxt.js', 'Tailwind CSS'],
+        image: 'ic_payaja.png',
+        technologies: [
+          'Kotlin',
+          'Modern Android Development (MAD)',
+          'Firebase',
+          'Clean Architecture',
+          'Coroutines & Flow',
+          'Jetpack Compose',
+          'Hilt',
+          'Testing (Expresso, MockK)'
+      ]
+
+
       },
       {
         id: 2,
-        title: 'Project B',
+        title: 'Josnet Salesman',
         description: 'Project B built with modern tech.',
-        image: 'ic_logo_programmer_santai.png',
-        technologies: ['React', 'Node.js', 'MongoDB'],
+        image: 'ic_josnet_sales.png',
+        technologies: [
+          'Kotlin',
+          'Modern Android Development (MAD)',
+          'Firebase',
+          'Clean Architecture',
+          'Coroutines & Flow',
+          'Jetpack Compose',
+          'Hilt',
+          'Testing (Expresso, MockK)'
+      ]
+
       },
       {
         id: 3,
-        title: 'Project C',
+        title: 'Josnet Retail Dan Grosir',
         description: 'A personal portfolio website.',
-        image: 'ic_logo_programmer_santai.png',
-        technologies: ['Vue.js', 'Nuxt.js', 'TypeScript'],
+        image: 'ic_josnet_retail.png',
+        technologies: [
+          'Kotlin',
+          'Modern Android Development (MAD)',
+          'Firebase',
+          'Clean Architecture',
+          'Coroutines & Flow',
+          'Jetpack Compose',
+          'Hilt',
+          'Testing (Expresso, MockK)'
+      ]
+
+      },
+       {
+        id: 4,
+        title: 'SaiMART Pay',
+        description: 'A personal portfolio website.',
+        image: 'ic_saipay.png',
+        technologies: [
+          'Kotlin',
+          'Modern Android Development (MAD)',
+          'Firebase',
+          'Clean Architecture',
+          'Coroutines & Flow',
+          'Jetpack Compose',
+          'Hilt',
+          'Testing (Expresso, MockK)'
+      ]
+
+      },
+      {
+        id: 5,
+        title: 'Fuel Card',
+        description: 'A personal portfolio website.',
+        image: 'ic_fuelcard.png',
+        technologies: [
+          'Kotlin',
+          'Modern Android Development (MAD)',
+          'Firebase',
+          'Clean Architecture',
+          'Coroutines & Flow',
+          'Jetpack Compose',
+          'Hilt',
+          'Testing (Expresso, MockK)'
+      ]
+
       },
     ],
   }),
