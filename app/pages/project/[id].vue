@@ -14,13 +14,13 @@ const project = computed(() => projectsStore.getProjectById(projectId));
     <div class="container mx-auto px-6 md:px-12 lg:px-20 max-w-5xl">
       
       <div v-if="project" class="flex flex-col items-center gap-8">
-       <!--  <div class="w-full">
-          <NuxtImg
+        <div class="w-full">
+          <Img
             :src="project.image"
             :alt="project.title"
             class="rounded-lg shadow-lg w-full h-[300px] object-cover" 
             />
-        </div> -->
+        </div>
 
         <div class="w-full text-center"> <h1 class="text-3xl font-bold text-yellow-400 mb-4">
             {{ project.title }}
