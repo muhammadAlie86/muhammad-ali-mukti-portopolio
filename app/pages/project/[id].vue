@@ -13,12 +13,13 @@ const project = computed(() => projectsStore.getProjectById(projectId));
   <section class="bg-slate-800 min-h-screen py-12 text-gray-200">
     <div class="container mx-auto px-6 md:px-12 lg:px-20 max-w-5xl">
       
-      <div v-if="project" class="flex flex-col items-center gap-8">
+      <div class="flex flex-col items-center gap-8">
         <div class="w-full">
-          <Img
-            :src="project.image"
+          
+          <img
+            :src="`/${project.image}`"
             :alt="project.title"
-            class="rounded-lg shadow-lg w-full h-[300px] object-cover" 
+            class="rounded-lg shadow-lg w-full h-[500px] object-cover" 
             />
         </div>
 
@@ -41,31 +42,9 @@ const project = computed(() => projectsStore.getProjectById(projectId));
             </span>
           </div>
 
-          <div v-if="project.demoUrl" class="mt-6">
-            <a
-              :href="project.demoUrl"
-              target="_blank"
-              class="inline-block bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 text-sm"
-            >
-              View Live Demo
-            </a>
-          </div>
-          <div v-else class="mt-6">
-            <span class="text-gray-400 italic">
-              🔒 Demo tidak tersedia (project internal/kantor)
-            </span>
-          </div>
-        </div>
+         
       </div>
 
-      <div v-else class="text-center text-gray-400 py-20">
-        <h2 class="text-2xl font-bold text-red-400 mb-4">Project Not Found</h2>
-        <NuxtLink
-          to="/project"
-          class="inline-block bg-yellow-500 text-slate-900 px-4 py-2 rounded-md hover:bg-yellow-400 text-sm"
-        >
-          🔙 Back to Projects
-        </NuxtLink>
       </div>
     </div>
   </section>
