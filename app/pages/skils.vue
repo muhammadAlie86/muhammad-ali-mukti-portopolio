@@ -54,13 +54,17 @@
 const skills = [
   { name: 'Kotlin', iconNuxt: 'i-simple-icons-kotlin' },
   { name: 'Java', iconNuxt: 'i-simple-icons-openjdk' },
-  { name: 'MVVM/MVI/MVP', iconNuxt: 'i-simple-icons-android' },
+  { name: 'MVVM / MVI /MVP', iconNuxt: 'i-simple-icons-android' },
   { name: 'Retrofit', iconNuxt: 'i-simple-icons-square', shortName: 'Networking' }, 
-  { name: 'Room Database', iconNuxt: 'i-simple-icons-sqlite', shortName: 'Room' },
+  { name: 'Room Database', iconNuxt: 'i-simple-icons-sqlite', shortName: 'Room' }, 
+  { name: 'MySQL', iconNuxt: 'i-simple-icons-mysql', shortName: 'Room' },
+  
   { name: 'Firebase', iconNuxt: 'i-simple-icons-firebase', shortName: 'Firebase' }, 
   { name: 'Gradle', iconNuxt: 'i-simple-icons-gradle' },
 
 
+  { name: 'REST API', iconNuxt: 'i-simple-icons-json' },
+  { name: 'Nuxt.js', iconNuxt: 'i-simple-icons-nuxt' },
   { name: 'Vue.js', iconNuxt: 'i-simple-icons-vuedotjs' },
   { name: 'Javascript', iconNuxt: 'i-simple-icons-javascript' },
   { name: 'Typescript', iconNuxt: 'i-simple-icons-typescript' },

@@ -15,13 +15,13 @@ const project = computed(() => projectsStore.getProjectById(projectId));
       
       <div class="flex flex-col items-center gap-8">
         <div class="w-full">
-          
           <img
             :src="`/${project.image}`"
             :alt="project.title"
-            class="rounded-lg shadow-lg w-full h-[500px] object-cover" 
-            />
+            class="rounded-lg shadow-lg w-full h-auto object-contain"
+          />
         </div>
+
 
         <div class="w-full text-center"> <h1 class="text-3xl font-bold text-yellow-400 mb-4">
             {{ project.title }}
