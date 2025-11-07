@@ -10,7 +10,6 @@
       <NuxtPage />
     </main>
     
-    <!-- 🔹 Footer tetap di bawah -->
     <Footer class="flex-shrink-0" />
     
   </div>
