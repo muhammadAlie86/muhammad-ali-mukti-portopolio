@@ -130,7 +130,7 @@ export const useProjectsStore = defineStore('projects', {
         id: 8,
         title: 'Bayar Bayar Lite',
         description: 'A personal portfolio website.',
-        image: 'ic_fuelcard.png',
+        image: 'ic_bb_lite.png',
         technologies: [
           'Kotlin',
           'Modern Android Development (MAD)',
