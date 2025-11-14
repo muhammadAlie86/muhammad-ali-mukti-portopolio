@@ -253,7 +253,7 @@ export const useProjectsStore = defineStore('projects', {
 
       },
        {
-        id: 16,
+        id: 15,
         title: 'Mini ATM Panin Bank',
         description: 'A personal portfolio website.',
         image: 'ic_panin.png',
