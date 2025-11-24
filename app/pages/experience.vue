@@ -9,22 +9,22 @@ const experiences = [
       {
         heading: 'Projects & Achievements',
         points: [
-          'PPOB (Payment Point Online Bank): Implemented features for bill payments and product purchases.',
-          'BI-FAST: Developed real-time fund transfer features through the BI-FAST system.',
-          'QRIS: Implemented national-standard QR code payments, including scanning and real-time notifications.'
+          'Implemented PPOB bill payment and digital product purchase features, resulting in a 15% increase in monthly transaction volume and expansion to 20+ additional digital product types.',
+          'Developed and launched real-time BI-FAST fund transfer capability, cutting average transfer time from 5 minutes to <10 seconds and scaling throughput to 3,000+ daily transactions.',
+          'Implemented a QRIS backend-to-image data conversion module and optimized the rendering pipeline, driving a 25% increase in user adoption within the first quarter.',
+          ,
         ]
       },
       {
         heading: 'EDC Integration (Topwise T3, Advan C1 Smartpeak)',
         points: [
-          'Developed applications for EDC devices, integrating with SDKs for card readers and thermal printers.',
-          'Focused on reading and exploring SDK documentation to implement device features.'
+          'Developed and unified SDK integration for four different EDC/POS device models, reducing device integration bug reports by 30%.'
         ]
       },
       {
         heading: 'Soundbox Integration (Topwise SP10)',
         points: [
-          'Configured the soundbox to receive automated voice transaction notifications using the MQTT protocol.'
+          'Configured the Topwise SP10 soundbox for automated voice transaction notifications via MQTT, achieving <2-second delivery time and 99% voice notification accuracy.'
         ]
       },
     ],
@@ -41,9 +41,11 @@ const experiences = [
       {
         heading: 'Responsibilities',
         points: [
-          'Mentored participants of the DTS ProA 2021 program in the field of Android Development.',
-          'Assisted participants in understanding learning materials and provided constructive feedback.',
-          'Managed communication and coordination between participants and organizers to ensure smooth training execution.'
+          'Mentored and facilitated Android Development learning for 26 participants of the DTS ProA 2021 program.',
+          'Achieved a 69% graduation rate (18 out of 26 participants) by providing intensive technical guidance and weekly progress reviews.',
+          'Assisted participants in understanding complex learning materials and completing Submission projects.',
+          'Managed effective communication and coordination between participants and the organizing teams (Dicoding and Kominfo) to ensure smooth program implementation.',
+          'Continuously monitored participant progress and delivered constructive feedback 2 - 3 times per week to support the development of their technical skills.'
         ]
       }
     ],
@@ -58,9 +60,10 @@ const experiences = [
       {
         heading: 'Responsibilities',
         points: [
-          'Mentored participants of the BDT 2021 program in the field of Android Development.',
-          'Guided participants in understanding learning materials and provided constructive feedback.',
-          'Managed communication and coordination between participants and organizers.'
+          'Mentored and facilitated Android Development learning for 30 participants of the BDT 2021 program over a 3-month period.', 
+          'Achieved a 73% graduation rate (22 out of 30 participants) by providing technical guidance and ensuring understanding of core learning materials.',
+          'Managed effective communication and coordination between participants and the organizing team to ensure smooth and well-structured program execution.',
+          'Monitored participant progress in detail and delivered constructive feedback and weekly mentoring to improve participants’ technical skills.'
         ]
       }
     ],
@@ -75,10 +78,10 @@ const experiences = [
       {
         heading: 'Program Focus',
         points: [
-          'Completed an intensive 5-month training program focused on Kotlin and Android Jetpack.',
-          'Studied Software Engineering Principles including Clean Code, SOLID, and Git.',
-          'Developed a capstone project in a cross-domain team (ML & Cloud).',
-          'Enhanced soft skills and English communication for industry readiness.'
+          'Graduated from an intensive Android Development training program with 500+ hours of learning (equivalent to 5 full months), focused on building industry-level skills.',
+          'Gained in-depth mastery of Kotlin and Android Jetpack (ViewModel, LiveData, Navigation, Room, Retrofit, etc.) along with Software Engineering principles (Clean Code, SOLID, Git).',
+          'Successfully completed a collaborative Capstone Project involving a cross-domain team (6 members) from the Machine Learning (ML) and Cloud Computing tracks.',
+          'Successfully graduated from the program and earned certification, demonstrating industry readiness in both hard skills and soft skills (communication, teamwork).'
         ]
       }
     ],
