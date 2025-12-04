@@ -115,7 +115,7 @@ const experiences = [
             :key="index" 
             :ui="{ 
               base: 'transition hover:shadow-sky-500/50 hover:shadow-xl', 
-              background: 'bg-gray-800', 
+              background: 'bg-gray-800',  
               divide: 'divide-gray-700' 
             }"
           >
